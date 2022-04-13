@@ -13,6 +13,7 @@ h1 {
   font-size: 96px;
   font-weight: bold;
   font-family: var(--heading-font-family);
+  line-height: 1.5;
 }
 
 h2 {
@@ -69,6 +70,30 @@ img {
 }
 
 @media (max-width: 960px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .hero {
+    padding: 60px 10px;
+  }
+
+  .hero h2 {
+    font-size: 15px;
+  }
+
+  .hero p {
+    font-size: 24px;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
