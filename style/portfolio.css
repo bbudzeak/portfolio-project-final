@@ -104,6 +104,10 @@ img {
   font-family: var(--heading-font-family);
 }
 
+.active {
+  color: var(--primary-color) !important;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 45px;
