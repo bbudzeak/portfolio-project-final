@@ -20,6 +20,10 @@ h2 {
   font-size: 48px;
 }
 
+h4 {
+  font-size: 32px;
+}
+
 p {
   font-size: 18px;
   line-height: 30px;
@@ -27,6 +31,39 @@ p {
 
 img {
   border-radius: 4px;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: black;
+}
+
+footer .social-links {
+  color: var(--primary-color) !important;
+  margin: 0 30px;
+  padding: 10px;
+}
+
+footer .social-links:hover {
+  color: black !important;
+  margin: 0 30px;
+  padding: 10px;
 }
 
 .hero {
@@ -51,8 +88,8 @@ img {
   border-radius: 4px;
   color: white;
   font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
+  line-height: 20px;
+  padding: 32px 30px;
 }
 
 .btn-branding-outline {
@@ -70,7 +107,7 @@ img {
 }
 
 .content-container {
-  padding: 100px 10px;
+  padding: 60px 10px;
 }
 
 .content {
@@ -122,7 +159,7 @@ img {
   }
 
   .hero {
-    padding: 60px 10px;
+    padding: 40px 5px;
   }
 
   .hero h2 {
@@ -151,5 +188,22 @@ img {
     font-size: 36px;
     line-height: 1.2;
     font-family: var(--heading-font-family);
+  }
+
+  footer {
+    padding: 0;
+  }
+
+  footer .contact-box h4 {
+    font-size: 28px;
+  }
+
+  footer .btn-branding {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 32px 20px;
   }
 }
